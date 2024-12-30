@@ -1,0 +1,101 @@
+
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body
+{
+    background-color: darkcyan;
+}
+.hidden
+{
+    display: none;
+   
+}
+.hidden li
+{
+    border: 3px solid white;
+}
+.navbar,.hidden
+{
+    padding: 20px;
+}
+.navbar ul li a,.hidden ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li,.hidden ul li a
+{
+    display: inline-block;
+    padding: 30px;
+    position: relative;
+} 
+.navbar,.hidden
+{
+    background-color: black;
+    
+}
+.line
+{
+    height: 4px;
+    width: 0%;
+    background-color: aqua;
+    transition: .61s;
+}
+.navbar ul li:hover .line
+{
+    width: 100%;
+}
+.navbar ul li:hover .container
+{
+    display: flex;
+}
+.fa-chevron-down
+{
+    font-size: 12px;
+    margin-left: 3px;
+}
+.container
+{
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 20px;
+    background-color: white;
+    display: none;
+}
+.img,.img2
+{
+    width: 350px;
+    height: 300px;
+    background: url('/images/top2.jpg');
+    background-size: 100% 100%;
+}
+.img2
+{
+    background: url('/images/top1.jpg');
+}
+.img::after
+{
+    width: 350px;
+    height: 300px;
+    background: rgba(255, 0, 0, 1);
+}
+.row
+{
+    display: flex;
+}
+.col p
+{
+    
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+}
+
