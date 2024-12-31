@@ -3,7 +3,8 @@ nav = document.getElementById('nav');
 function show()
 {
   
-     nav.style.display="block"
+     nav.style.display="block";
+     return ;
    
   
 }
